@@ -29,6 +29,6 @@ form.addEventListener('submit', (event) => {
         document.getElementById('salud').style.color = 'red';
         document.getElementById('salud').style.fontWeight = 'bold';
     }
-
+    
     document.getElementById('imc').innerHTML = imc;
 });
