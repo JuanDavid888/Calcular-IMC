@@ -54,6 +54,14 @@ button:hover {
     background-color: #3e8e41;
 }
 
+#box-imc {
+    display: none;
+}
+
+#box-health {
+    display: none;
+}
+
 p {
     font-size: 1.3rem;
     margin: 20px 0;

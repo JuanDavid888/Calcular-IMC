@@ -30,5 +30,7 @@ form.addEventListener('submit', (event) => {
         document.getElementById('salud').style.fontWeight = 'bold';
     }
     
+    document.getElementById('box-imc').style.display = 'block';
+    document.getElementById('box-health').style.display = 'block';
     document.getElementById('imc').innerHTML = imc;
 });

@@ -12,13 +12,13 @@
         <h1>Calculadora de IMC</h1>
         <form id="formulario" action="#">
             <label for="peso">Peso: </label>
-            <input type="number" id="peso" name="peso" placeholder="Peso en kg" required>
+            <input type="number" id="peso" name="peso" step="0.01" placeholder="Peso en kg" required>
             <label for="altura">Altura: </label>
             <input type="number" id="altura" name="altura" step="0.01" placeholder="Altura en m" required>
             <button type="submit">Calcular</button>
         </form>
-        <p>IMC: <span id="imc"></span></p>
-        <p>Salud: <span id="salud"></span></p>
+        <p id="box-imc">IMC: <span id="imc"></span></p>
+        <p id="box-health">Salud: <span id="salud"></span></p>
     </div>
 </body>
 </html>
